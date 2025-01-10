@@ -1,0 +1,321 @@
+    h1, ul, li, a {
+      margin: 0; 
+      padding: 0; 
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .top-right-links {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: #f0f0f0; 
+      border: 1px solid #ccc; 
+      width: 100%; 
+      padding: 10px 15px;
+      box-sizing: border-box;
+
+    }
+
+    .top-right-links a {
+      font-size: 20px;
+      margin-right: 10px;
+      color: #333;
+      text-decoration:none ;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      color:#1034a6 ;
+    }
+
+    .nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    .nav li {
+      margin-right: 15px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    .nav ul li:first-child a {
+      color: #1034a6; 
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+    }
+
+    .icons a {
+      margin-right: 10px;
+      color: #999; 
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    .icons a:hover {
+      color: #007bff; 
+    }
+
+    .header-color {
+      color: #007bff;
+    }
+
+    .auth-buttons a {
+      border: 1px solid #1034a6;
+      border-radius: 25px; 
+      padding: 8px 15px;
+      font-size: 14px;
+      margin-left: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .signup-btn {
+      background:#1034a6; 
+      color: white; 
+    }
+
+    .signin-btn {
+      background: #fff; 
+      color:#1034a6; 
+    }
+
+    .sign {
+      padding: 50px 20px;
+      font-size: 30px;
+      color: black;
+      text-decoration: none;
+    }
+
+    .sign a {
+      color: black;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+    .form-container {
+      display: flex;
+      max-width: 900px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .signin-form {
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      color: #1034a6;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .input-group input {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .input-group-inline {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .input-group-inline .input-group {
+      width: 48%;
+    }
+   .entity {
+     color:red;
+   }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color:#1034a6;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .forgot-password {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+
+    .forgot-password a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .social-login {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .social-login button {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border: none;
+      border-radius: 50px;
+      width: 48%;
+      justify-content: center;
+      cursor: pointer;
+    }
+    
+    .google-btn i {
+      color:red; 
+      margin-right: 8px;
+    }
+
+    .facebook-btn i {
+      color: white; 
+      margin-right: 8px;
+      background-color:#007bff ;
+      border-radius:50px ;
+      padding:5px ;
+    }
+
+    .promo {
+      width: 40%;
+      text-align: center;
+    }
+
+    .promo img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .or-text {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .account-info a {
+      color: #1034a6;
+    }
+    .footer {
+    background-color: #003a9d;
+    padding: 20px;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo-vent{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    font-style:italic;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+.container-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-section ul li a i {
+    margin-right: 8px;
+}
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: underline; 
+    font-size: 14px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #dcdcdc;
+}
+    

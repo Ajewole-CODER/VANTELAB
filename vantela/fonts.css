@@ -1,0 +1,9 @@
+/* pacifico-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/pacifico-v22-latin-regular.woff2') format('woff2');
+  }
+  

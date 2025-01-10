@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+h2{
+    font-family: Pacifico;
+   
+}
+.divone h1{
+    font-family: Pacifico;
+   
+}
+.test{
+background-color: rgba(241, 241, 241, 1);
+display: flex;
+flex-direction:row;
+gap: 20px;
+padding-left:10% ;
+justify-content: flex-end;
+padding-right:4%;
+height: 40px;
+padding-top: 1%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 4%;
+    margin-left: 4%;
+    height: 120px;
+    
+    color: rgba(31, 62, 151, 1);
+}
+
+.himg{
+    padding-left: 0%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header span{
+   margin-top: 20px;
+   margin-bottom: 20%;
+}
+
+.himg img{
+    display: block; 
+  width: 40px; 
+  height: auto;
+  border-radius: 20px;
+}
+.tt {
+    position: relative;
+    display: inline-block; /* Make the container a positioning context */
+  }
+  .ja {
+    position: absolute;
+    top: -5px; /* Adjust for fine-tuning */
+    right: -5px; /* Adjust for fine-tuning */
+    background-color: rgba(255, 184, 0, 1); /* Yellow background */
+    color: white; /* White text */
+    font-size: 12px; /* Font size for the number */
+    font-weight: bold;
+    border-radius: 70%; /* Makes it circular */
+    width: 25px; /* Fixed size for the circle */
+    height: 25px; /* Fixed size for the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+
+.cu{
+    margin-left: 4%;
+}
+
+.hr hr{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 3%;
+}
+.formsec{
+    margin: 4%;
+    
+}
+textarea {
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 8px ;
+    padding: 12px 20px;
+    border: none;
+    resize: none;
+}
+label{
+    margin: 1%;
+    padding: 1%;
+    color: rgba(31, 62, 151, 1);
+}
+.yes{
+    margin-left: 12%;
+}
+.mainf input{
+    border: none;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 7px ;
+    margin-left: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(241, 241, 241, 1);
+    border-radius: 8px;
+}
+.sendf input{
+    border: none;
+    width: 10%;
+    padding: 16px;
+    border-radius: 8px ;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;  
+}
+button{
+    background-color: rgba(31, 62, 151, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 70px;
+    height: 30px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 1%;
+
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+.footsec{
+    padding: 5%;
+    color: white;
+    background-color:rgba(31, 62, 151, 1)
+}
+.footdivcont{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.divone{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+    margin-left: 1%;
+}
+.divone input{
+    border: none;
+    padding: 3%;
+    border-radius: 48px;
+    width: 359px;
+    height: 25px;
+    margin-left: 20%;
+}
+
+
+.footdivcont p{
+    padding: 10px;
+    
+}
+.footdivcont p a{
+    color: white;
+}
+
+.footdivcont h3{
+    padding: 15px;
+    padding-left: 10px;
+}
+.social p img{
+    top: 10px;
+}
+.copy{
+    color: white;
+    background-color: rgba(24, 55, 143, 1);
+    padding: 2%;
+    
+}
+.mobile-nav {
+    display: none;
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .footdivcont{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .divone{
+       display: flex;
+       flex-direction: column;
+       
+    }
+    .divone input{
+        margin-left: 0;
+        width: 313px;
+        height: 25px;
+    }
+    .textarea{
+        width: 314px;
+        height: 134px;
+        border-radius: 5.23px;
+    }
+    .mainf input{
+        width: 311px;
+        height: 51px;
+    }
+    .sendf input{
+        width: 188px;
+        height: 49px;
+        border-radius: 8px;
+    }
+    button{
+        width: 124px;
+        height: 49px;
+        border: 4px;
+    }
+    #mob{
+        width: 314px;
+        height: 84px;
+    }
+    .fdiv{
+        margin: 2px;
+    }
+    .FooterInput{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .helpsec{
+        display: none;
+    }
+    .header{
+        margin-top: 10%;
+    }
+
+
+
+    .header {
+        display: none; /* Hide desktop layout */
+      }
+    
+      .mobile-nav {
+        display: flex; /* Show mobile layout */
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding: 4%;
+      }
+      .mobile-nav  {
+        font-family: Pacifico;
+        color: rgba(31, 62, 151, 1);
+      }
+      .mobile-nav p{
+        color: rgba(31, 62, 151, 1);
+      }
+      .cu{
+        margin: 7%;
+      }
+      .foot{
+        margin: 4%;
+      }
+      .copy{
+       padding: 8%;
+      }
+  }
+  
